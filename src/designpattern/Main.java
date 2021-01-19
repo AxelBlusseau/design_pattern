@@ -10,6 +10,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // L'implémentation de l'exercice 1 se trouve dans le package Strategy_pattern
+
         // Factory Pattern //
         LoggerFactory loggerFactory = new LoggerFactory();
         Logger consoleLogger = loggerFactory.getLogger("CONSOLE");
